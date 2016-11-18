@@ -1,7 +1,7 @@
 {
   "name": "puppet-remote",
   "version": "10.0.0",
-  "author": "Martin Mágr",
+  "author": "Martin Magr",
   "summary": "Puppet module providing resource types for managing remote resources such as MySQL DBs.",
   "license": "Apache-2.0",
   "source": "git://github.com/paramite/puppet-remote.git",
