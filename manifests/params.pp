@@ -10,7 +10,7 @@ class remote::params {
         }
 
         'RedHat', 'CentOS', 'Scientific': {
-          if 0 + $::operatingsystemmajrelease >= 7 {
+          if (versioncmp($::operatingsystemmajrelease, '7') >= 0) {
             $mysql_client_package = 'mariadb'
           } else {
             $mysql_client_package = 'mysql'
